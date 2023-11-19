@@ -1,0 +1,18 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix nobel: <http://data.nobelprize.org/terms/> .
+@prefix university: <http://data.nobelprize.org/resource/university/> .
+
+# Define the shape
+nobel:LaureateShape
+  a sh:NodeShape ;
+  sh:targetClass nobel:Laureate ;
+  sh:property [
+    sh:path dbo:affiliation ;
+    # Require the specific value    
+    sh:hasValue university:Princeton_University ; 
+    # Allow values from a set    
+    sh:in (university:Princeton_University university:Sorbonne_University) ; 
+  ] .

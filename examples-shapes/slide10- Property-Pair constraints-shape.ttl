@@ -1,0 +1,17 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix nobel: <http://data.nobelprize.org/terms/> .
+@prefix schema:<http://schema.org/> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+
+:Person a sh:NodeShape, nobel:Laureate;
+sh:property [
+    sh:path schema:givenName ;
+    sh:equals foaf:firstName ;
+    ] ;
+    sh:property [
+    sh:path schema:givenName ;
+    sh:disjoint schema:lastName ;
+    ] .

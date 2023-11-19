@@ -1,0 +1,17 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix nobel: <http://data.nobelprize.org/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+
+# Define the shape
+nobel:LaureateShape
+  a sh:NodeShape ;
+  sh:targetClass nobel:Laureate ;
+  sh:property [
+    sh:path dbo:publication_number ;
+    sh:maxInclusive "120"^^xsd:integer ;  
+    sh:minInclusive "18"^^xsd:integer ;   
+  ] .

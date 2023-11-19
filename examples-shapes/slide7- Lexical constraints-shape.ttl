@@ -1,0 +1,22 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix nobel: <http://data.nobelprize.org/terms/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+# Define the shape
+nobel:LaureateShape
+  a sh:NodeShape ;
+  sh:targetClass nobel:Laureate ;
+  sh:property [
+    sh:path foaf:name ;
+    # Set the minimum length of the name
+    sh:minLength "3"^^xsd:integer ; 
+    # Set the maximum length of the name
+    sh:maxLength "50"^^xsd:integer ;        
+    # Set a regex pattern for the name       
+    sh:pattern "^[A-Za-z\\s]+$" ;         
+    # Set flags for the regex pattern (case-insensitive)
+    sh:flags "i" ;                          
+  ] .

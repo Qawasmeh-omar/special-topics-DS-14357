@@ -1,0 +1,26 @@
+@prefix country: <http://data.nobelprize.org/resource/country/> .
+@prefix city:  <http://data.nobelprize.org/resource/city/> .
+@prefix university: <http://data.nobelprize.org/resource/university/> .
+@prefix laureate: <http://data.nobelprize.org/resource/laureate/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix nobel: <http://data.nobelprize.org/terms/> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix dbp:   <http://dbpedia.org/property/> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+
+university:Princeton_University a university:University.
+
+laureate:935  a              foaf:Person , nobel:Laureate ;
+        rdfs:label           "Oliver Hart" ;     
+        dbo:affiliation      university:Princeton_University .
+
+laureate:940  a              foaf:Person , nobel:Laureate ;
+        rdfs:label           "Albert Einstein" .
+
+laureate:945  a              foaf:Person , nobel:Laureate ;
+        rdfs:label           "Marie Curie" ;
+        dbo:affiliation      university:Sorbonne_University;
+        dbo:affiliation      university:University_Paris;
+        dbo:affiliation      university:French_academy_for_medicine.
+

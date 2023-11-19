@@ -1,0 +1,14 @@
+@prefix ex: <http://example.org#> .
+@prefix dash: <http://datashapes.org/dash#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix nobel: <http://data.nobelprize.org/terms/> .
+
+nobel:LaureateShape a sh:NodeShape ;
+    sh:targetClass nobel:Laureate ;
+    sh:property [
+       sh:path foaf:name ;
+       sh:languageIn ("en" "ar");
+       sh:uniqueLang true ;
+    ] .

@@ -1,0 +1,901 @@
+@prefix ex: <http://example.com/flights-ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:AA-1141 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 1089 ;
+    ex:hasAirline <http://example.com/flights-ontology/American_Airlines_Inc.> ;
+    ex:hasAirportDest ex:MIA ;
+    ex:hasAirportOrigin ex:JFK ;
+    ex:tailnum "N619AA" .
+
+ex:AA-1815 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 944 ;
+    ex:hasAirline <http://example.com/flights-ontology/American_Airlines_Inc.> ;
+    ex:hasAirportDest ex:MCO ;
+    ex:hasAirportOrigin ex:JFK ;
+    ex:tailnum "N5FMAA" .
+
+ex:AA-1837 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 1096 ;
+    ex:hasAirline <http://example.com/flights-ontology/American_Airlines_Inc.> ;
+    ex:hasAirportDest ex:MIA ;
+    ex:hasAirportOrigin ex:LGA ;
+    ex:tailnum "N3EMAA" .
+
+ex:AA-1895 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 1085 ;
+    ex:hasAirline <http://example.com/flights-ontology/American_Airlines_Inc.> ;
+    ex:hasAirportDest ex:MIA ;
+    ex:hasAirportOrigin ex:EWR ;
+    ex:tailnum "N633AA" .
+
+ex:AA-2083 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 1372 ;
+    ex:hasAirline <http://example.com/flights-ontology/American_Airlines_Inc.> ;
+    ex:hasAirportDest ex:DFW ;
+    ex:hasAirportOrigin ex:EWR ;
+    ex:tailnum "N4WRAA" .
+
+ex:AA-2279 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 1096 ;
+    ex:hasAirline <http://example.com/flights-ontology/American_Airlines_Inc.> ;
+    ex:hasAirportDest ex:MIA ;
+    ex:hasAirportOrigin ex:LGA ;
+    ex:tailnum "N3EKAA" .
+
+ex:AA-301 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 733 ;
+    ex:hasAirline <http://example.com/flights-ontology/American_Airlines_Inc.> ;
+    ex:hasAirportDest ex:ORD ;
+    ex:hasAirportOrigin ex:LGA ;
+    ex:tailnum "N3ALAA" .
+
+ex:AA-303 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 733 ;
+    ex:hasAirline <http://example.com/flights-ontology/American_Airlines_Inc.> ;
+    ex:hasAirportDest ex:ORD ;
+    ex:hasAirportOrigin ex:LGA ;
+    ex:tailnum "N3CYAA" .
+
+ex:AA-305 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 733 ;
+    ex:hasAirline <http://example.com/flights-ontology/American_Airlines_Inc.> ;
+    ex:hasAirportDest ex:ORD ;
+    ex:hasAirportOrigin ex:LGA ;
+    ex:tailnum "N4WNAA" .
+
+ex:AA-309 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 733 ;
+    ex:hasAirline <http://example.com/flights-ontology/American_Airlines_Inc.> ;
+    ex:hasAirportDest ex:ORD ;
+    ex:hasAirportOrigin ex:LGA ;
+    ex:tailnum "N4WPAA" .
+
+ex:AA-33 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 2475 ;
+    ex:hasAirline <http://example.com/flights-ontology/American_Airlines_Inc.> ;
+    ex:hasAirportDest ex:LAX ;
+    ex:hasAirportOrigin ex:JFK ;
+    ex:tailnum "N338AA" .
+
+ex:AA-413 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 1598 ;
+    ex:hasAirline <http://example.com/flights-ontology/American_Airlines_Inc.> ;
+    ex:hasAirportDest ex:SJU ;
+    ex:hasAirportOrigin ex:JFK ;
+    ex:tailnum "N3BAAA" .
+
+ex:AA-59 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 2586 ;
+    ex:hasAirline <http://example.com/flights-ontology/American_Airlines_Inc.> ;
+    ex:hasAirportDest ex:SFO ;
+    ex:hasAirportOrigin ex:JFK ;
+    ex:tailnum "N336AA" .
+
+ex:AA-707 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 1389 ;
+    ex:hasAirline <http://example.com/flights-ontology/American_Airlines_Inc.> ;
+    ex:hasAirportDest ex:DFW ;
+    ex:hasAirportOrigin ex:LGA ;
+    ex:tailnum "N3DUAA" .
+
+ex:AA-711 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 1389 ;
+    ex:hasAirline <http://example.com/flights-ontology/American_Airlines_Inc.> ;
+    ex:hasAirportDest ex:DFW ;
+    ex:hasAirportOrigin ex:LGA ;
+    ex:tailnum "N3GKAA" .
+
+ex:AA-715 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 1389 ;
+    ex:hasAirline <http://example.com/flights-ontology/American_Airlines_Inc.> ;
+    ex:hasAirportDest ex:DFW ;
+    ex:hasAirportOrigin ex:LGA ;
+    ex:tailnum "N541AA" .
+
+ex:AA-825 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 1069 ;
+    ex:hasAirline <http://example.com/flights-ontology/American_Airlines_Inc.> ;
+    ex:hasAirportDest ex:FLL ;
+    ex:hasAirportOrigin ex:JFK ;
+    ex:tailnum "N3ETAA" .
+
+ex:AS-11 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 2402 ;
+    ex:hasAirline <http://example.com/flights-ontology/Alaska_Airlines_Inc.> ;
+    ex:hasAirportDest ex:SEA ;
+    ex:hasAirportOrigin ex:EWR ;
+    ex:tailnum "N594AS" .
+
+ex:B6-1002 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 187 ;
+    ex:hasAirline ex:JetBlue_Airways ;
+    ex:hasAirportDest ex:BOS ;
+    ex:hasAirportOrigin ex:JFK ;
+    ex:tailnum "N805JB" .
+
+ex:B6-102 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 301 ;
+    ex:hasAirline ex:JetBlue_Airways ;
+    ex:hasAirportDest ex:BUF ;
+    ex:hasAirportOrigin ex:JFK ;
+    ex:tailnum "N796JB" .
+
+ex:B6-117 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 1182 ;
+    ex:hasAirline ex:JetBlue_Airways ;
+    ex:hasAirportDest ex:MSY ;
+    ex:hasAirportOrigin ex:JFK ;
+    ex:tailnum "N178JB" .
+
+ex:B6-135 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 1074 ;
+    ex:hasAirline ex:JetBlue_Airways ;
+    ex:hasAirportDest ex:RSW ;
+    ex:hasAirportOrigin ex:JFK ;
+    ex:tailnum "N635JB" .
+
+ex:B6-1601 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 1080 ;
+    ex:hasAirline ex:JetBlue_Airways ;
+    ex:hasAirportDest ex:RSW ;
+    ex:hasAirportOrigin ex:LGA ;
+    ex:tailnum "N563JB" .
+
+ex:B6-1806 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 187 ;
+    ex:hasAirline ex:JetBlue_Airways ;
+    ex:hasAirportDest ex:BOS ;
+    ex:hasAirportOrigin ex:JFK ;
+    ex:tailnum "N708JB" .
+
+ex:B6-20 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 264 ;
+    ex:hasAirline ex:JetBlue_Airways ;
+    ex:hasAirportDest ex:ROC ;
+    ex:hasAirportOrigin ex:JFK ;
+    ex:tailnum "N304JB" .
+
+ex:B6-203 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 2248 ;
+    ex:hasAirline ex:JetBlue_Airways ;
+    ex:hasAirportDest ex:LAS ;
+    ex:hasAirportOrigin ex:JFK ;
+    ex:tailnum "N558JB" .
+
+ex:B6-341 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 1041 ;
+    ex:hasAirline ex:JetBlue_Airways ;
+    ex:hasAirportDest ex:SRQ ;
+    ex:hasAirportOrigin ex:JFK ;
+    ex:tailnum "N624JB" .
+
+ex:B6-343 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 1023 ;
+    ex:hasAirline ex:JetBlue_Airways ;
+    ex:hasAirportDest ex:PBI ;
+    ex:hasAirportOrigin ex:EWR ;
+    ex:tailnum "N644JB" .
+
+ex:B6-371 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 1076 ;
+    ex:hasAirline ex:JetBlue_Airways ;
+    ex:hasAirportDest ex:FLL ;
+    ex:hasAirportOrigin ex:LGA ;
+    ex:tailnum "N595JB" .
+
+ex:B6-389 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 950 ;
+    ex:hasAirline ex:JetBlue_Airways ;
+    ex:hasAirportDest ex:MCO ;
+    ex:hasAirportOrigin ex:LGA ;
+    ex:tailnum "N709JB" .
+
+ex:B6-44 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 209 ;
+    ex:hasAirline ex:JetBlue_Airways ;
+    ex:hasAirportDest ex:SYR ;
+    ex:hasAirportOrigin ex:JFK ;
+    ex:tailnum "N552JB" .
+
+ex:B6-49 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 1028 ;
+    ex:hasAirline ex:JetBlue_Airways ;
+    ex:hasAirportDest ex:PBI ;
+    ex:hasAirportOrigin ex:JFK ;
+    ex:tailnum "N793JB" .
+
+ex:B6-507 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 1065 ;
+    ex:hasAirline ex:JetBlue_Airways ;
+    ex:hasAirportDest ex:FLL ;
+    ex:hasAirportOrigin ex:EWR ;
+    ex:tailnum "N516JB" .
+
+ex:B6-643 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 2586 ;
+    ex:hasAirline ex:JetBlue_Airways ;
+    ex:hasAirportDest ex:SFO ;
+    ex:hasAirportOrigin ex:JFK ;
+    ex:tailnum "N625JB" .
+
+ex:B6-671 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 2475 ;
+    ex:hasAirline ex:JetBlue_Airways ;
+    ex:hasAirportDest ex:LAX ;
+    ex:hasAirportOrigin ex:JFK ;
+    ex:tailnum "N779JB" .
+
+ex:B6-709 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 1598 ;
+    ex:hasAirline ex:JetBlue_Airways ;
+    ex:hasAirportDest ex:SJU ;
+    ex:hasAirportOrigin ex:JFK ;
+    ex:tailnum "N794JB" .
+
+ex:B6-71 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 1005 ;
+    ex:hasAirline ex:JetBlue_Airways ;
+    ex:hasAirportDest ex:TPA ;
+    ex:hasAirportOrigin ex:JFK ;
+    ex:tailnum "N657JB" .
+
+ex:B6-715 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 1598 ;
+    ex:hasAirline ex:JetBlue_Airways ;
+    ex:hasAirportDest ex:SJU ;
+    ex:hasAirportOrigin ex:JFK ;
+    ex:tailnum "N651JB" .
+
+ex:B6-725 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 1576 ;
+    ex:hasAirline ex:JetBlue_Airways ;
+    ex:hasAirportDest ex:BQN ;
+    ex:hasAirportOrigin ex:JFK ;
+    ex:tailnum "N804JB" .
+
+ex:B6-79 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 944 ;
+    ex:hasAirline ex:JetBlue_Airways ;
+    ex:hasAirportDest ex:MCO ;
+    ex:hasAirportOrigin ex:JFK ;
+    ex:tailnum "N593JB" .
+
+ex:B6-981 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 1069 ;
+    ex:hasAirline ex:JetBlue_Airways ;
+    ex:hasAirportDest ex:FLL ;
+    ex:hasAirportOrigin ex:JFK ;
+    ex:tailnum "N646JB" .
+
+ex:B6-983 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 1010 ;
+    ex:hasAirline ex:JetBlue_Airways ;
+    ex:hasAirportDest ex:TPA ;
+    ex:hasAirportOrigin ex:LGA ;
+    ex:tailnum "N633JB" .
+
+ex:B6-987 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 944 ;
+    ex:hasAirline ex:JetBlue_Airways ;
+    ex:hasAirportDest ex:MCO ;
+    ex:hasAirportOrigin ex:JFK ;
+    ex:tailnum "N562JB" .
+
+ex:DL-1383 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 1035 ;
+    ex:hasAirline <http://example.com/flights-ontology/Delta_Air_Lines_Inc.> ;
+    ex:hasAirportDest ex:PBI ;
+    ex:hasAirportOrigin ex:LGA ;
+    ex:tailnum "N327NW" .
+
+ex:DL-1415 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 1990 ;
+    ex:hasAirline <http://example.com/flights-ontology/Delta_Air_Lines_Inc.> ;
+    ex:hasAirportDest ex:SLC ;
+    ex:hasAirportOrigin ex:JFK ;
+    ex:tailnum "N3763D" .
+
+ex:DL-1547 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 762 ;
+    ex:hasAirline <http://example.com/flights-ontology/Delta_Air_Lines_Inc.> ;
+    ex:hasAirportDest ex:ATL ;
+    ex:hasAirportOrigin ex:LGA ;
+    ex:tailnum "N6703D" .
+
+ex:DL-1743 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 760 ;
+    ex:hasAirline <http://example.com/flights-ontology/Delta_Air_Lines_Inc.> ;
+    ex:hasAirportDest ex:ATL ;
+    ex:hasAirportOrigin ex:JFK ;
+    ex:tailnum "N3739P" .
+
+ex:DL-1865 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 2586 ;
+    ex:hasAirline <http://example.com/flights-ontology/Delta_Air_Lines_Inc.> ;
+    ex:hasAirportDest ex:SFO ;
+    ex:hasAirportOrigin ex:JFK ;
+    ex:tailnum "N705TW" .
+
+ex:DL-1879 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 1076 ;
+    ex:hasAirline <http://example.com/flights-ontology/Delta_Air_Lines_Inc.> ;
+    ex:hasAirportDest ex:FLL ;
+    ex:hasAirportOrigin ex:LGA ;
+    ex:tailnum "N318NB" .
+
+ex:DL-1919 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 1020 ;
+    ex:hasAirline <http://example.com/flights-ontology/Delta_Air_Lines_Inc.> ;
+    ex:hasAirportDest ex:MSP ;
+    ex:hasAirportOrigin ex:LGA ;
+    ex:tailnum "N971DL" .
+
+ex:DL-2003 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 1096 ;
+    ex:hasAirline <http://example.com/flights-ontology/Delta_Air_Lines_Inc.> ;
+    ex:hasAirportDest ex:MIA ;
+    ex:hasAirportOrigin ex:LGA ;
+    ex:tailnum "N997DL" .
+
+ex:DL-2263 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 950 ;
+    ex:hasAirline <http://example.com/flights-ontology/Delta_Air_Lines_Inc.> ;
+    ex:hasAirportDest ex:MCO ;
+    ex:hasAirportOrigin ex:LGA ;
+    ex:tailnum "N325US" .
+
+ex:DL-461 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 762 ;
+    ex:hasAirline <http://example.com/flights-ontology/Delta_Air_Lines_Inc.> ;
+    ex:hasAirportDest ex:ATL ;
+    ex:hasAirportOrigin ex:LGA ;
+    ex:tailnum "N668DN" .
+
+ex:DL-495 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 2422 ;
+    ex:hasAirline <http://example.com/flights-ontology/Delta_Air_Lines_Inc.> ;
+    ex:hasAirportDest ex:SEA ;
+    ex:hasAirportOrigin ex:JFK ;
+    ex:tailnum "N3760C" .
+
+ex:DL-575 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 746 ;
+    ex:hasAirline <http://example.com/flights-ontology/Delta_Air_Lines_Inc.> ;
+    ex:hasAirportDest ex:ATL ;
+    ex:hasAirportOrigin ex:EWR ;
+    ex:tailnum "N326NB" .
+
+ex:DL-831 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 502 ;
+    ex:hasAirline <http://example.com/flights-ontology/Delta_Air_Lines_Inc.> ;
+    ex:hasAirportDest ex:DTW ;
+    ex:hasAirportOrigin ex:LGA ;
+    ex:tailnum "N998DL" .
+
+ex:EV-4144 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 212 ;
+    ex:hasAirline <http://example.com/flights-ontology/ExpressJet_Airlines_Inc.> ;
+    ex:hasAirportDest ex:IAD ;
+    ex:hasAirportOrigin ex:EWR ;
+    ex:tailnum "N13553" .
+
+ex:EV-4626 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 1008 ;
+    ex:hasAirline <http://example.com/flights-ontology/ExpressJet_Airlines_Inc.> ;
+    ex:hasAirportDest ex:MSP ;
+    ex:hasAirportOrigin ex:EWR ;
+    ex:tailnum "N11107" .
+
+ex:EV-5708 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 229 ;
+    ex:hasAirline <http://example.com/flights-ontology/ExpressJet_Airlines_Inc.> ;
+    ex:hasAirportDest ex:IAD ;
+    ex:hasAirportOrigin ex:LGA ;
+    ex:tailnum "N829AS" .
+
+ex:FL-850 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 738 ;
+    ex:hasAirline ex:AirTran_Airways_Corporation ;
+    ex:hasAirportDest ex:MKE ;
+    ex:hasAirportOrigin ex:LGA ;
+    ex:tailnum "N978AT" .
+
+ex:MQ-3737 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 719 ;
+    ex:hasAirline ex:Envoy_Air ;
+    ex:hasAirportDest ex:ORD ;
+    ex:hasAirportOrigin ex:EWR ;
+    ex:tailnum "N508MQ" .
+
+ex:MQ-3768 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 719 ;
+    ex:hasAirline ex:Envoy_Air ;
+    ex:hasAirportDest ex:ORD ;
+    ex:hasAirportOrigin ex:EWR ;
+    ex:tailnum "N9EAMQ" .
+
+ex:MQ-4401 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 502 ;
+    ex:hasAirline ex:Envoy_Air ;
+    ex:hasAirportDest ex:DTW ;
+    ex:hasAirportOrigin ex:LGA ;
+    ex:tailnum "N730MQ" .
+
+ex:MQ-4534 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 1147 ;
+    ex:hasAirline ex:Envoy_Air ;
+    ex:hasAirportDest ex:XNA ;
+    ex:hasAirportOrigin ex:LGA ;
+    ex:tailnum "N722MQ" .
+
+ex:MQ-4599 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 1020 ;
+    ex:hasAirline ex:Envoy_Air ;
+    ex:hasAirportDest ex:MSP ;
+    ex:hasAirportOrigin ex:LGA ;
+    ex:tailnum "N518MQ" .
+
+ex:MQ-4650 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 762 ;
+    ex:hasAirline ex:Envoy_Air ;
+    ex:hasAirportDest ex:ATL ;
+    ex:hasAirportOrigin ex:LGA ;
+    ex:tailnum "N542MQ" .
+
+ex:UA-1077 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 1085 ;
+    ex:hasAirline <http://example.com/flights-ontology/United_Air_Lines_Inc.> ;
+    ex:hasAirportDest ex:MIA ;
+    ex:hasAirportOrigin ex:EWR ;
+    ex:tailnum "N53442" .
+
+ex:UA-1092 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 733 ;
+    ex:hasAirline <http://example.com/flights-ontology/United_Air_Lines_Inc.> ;
+    ex:hasAirportDest ex:ORD ;
+    ex:hasAirportOrigin ex:LGA ;
+    ex:tailnum "N26226" .
+
+ex:UA-1111 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 937 ;
+    ex:hasAirline <http://example.com/flights-ontology/United_Air_Lines_Inc.> ;
+    ex:hasAirportDest ex:MCO ;
+    ex:hasAirportOrigin ex:EWR ;
+    ex:tailnum "N37456" .
+
+ex:UA-1115 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 997 ;
+    ex:hasAirline <http://example.com/flights-ontology/United_Air_Lines_Inc.> ;
+    ex:hasAirportDest ex:TPA ;
+    ex:hasAirportOrigin ex:EWR ;
+    ex:tailnum "N24212" .
+
+ex:UA-1124 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 2565 ;
+    ex:hasAirline <http://example.com/flights-ontology/United_Air_Lines_Inc.> ;
+    ex:hasAirportDest ex:SFO ;
+    ex:hasAirportOrigin ex:EWR ;
+    ex:tailnum "N53441" .
+
+ex:UA-1162 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 1605 ;
+    ex:hasAirline <http://example.com/flights-ontology/United_Air_Lines_Inc.> ;
+    ex:hasAirportDest ex:DEN ;
+    ex:hasAirportOrigin ex:EWR ;
+    ex:tailnum "N37462" .
+
+ex:UA-1187 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 2227 ;
+    ex:hasAirline <http://example.com/flights-ontology/United_Air_Lines_Inc.> ;
+    ex:hasAirportDest ex:LAS ;
+    ex:hasAirportOrigin ex:EWR ;
+    ex:tailnum "N76515" .
+
+ex:UA-1203 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 1608 ;
+    ex:hasAirline <http://example.com/flights-ontology/United_Air_Lines_Inc.> ;
+    ex:hasAirportDest ex:SJU ;
+    ex:hasAirportOrigin ex:EWR ;
+    ex:tailnum "N77296" .
+
+ex:UA-1479 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 1400 ;
+    ex:hasAirline <http://example.com/flights-ontology/United_Air_Lines_Inc.> ;
+    ex:hasAirportDest ex:IAH ;
+    ex:hasAirportOrigin ex:EWR ;
+    ex:tailnum "N37408" .
+
+ex:UA-1496 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 2434 ;
+    ex:hasAirline <http://example.com/flights-ontology/United_Air_Lines_Inc.> ;
+    ex:hasAirportDest ex:SNA ;
+    ex:hasAirportOrigin ex:EWR ;
+    ex:tailnum "N38727" .
+
+ex:UA-1545 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 1400 ;
+    ex:hasAirline <http://example.com/flights-ontology/United_Air_Lines_Inc.> ;
+    ex:hasAirportDest ex:IAH ;
+    ex:hasAirportOrigin ex:EWR ;
+    ex:tailnum "N14228" .
+
+ex:UA-1665 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 2454 ;
+    ex:hasAirline <http://example.com/flights-ontology/United_Air_Lines_Inc.> ;
+    ex:hasAirportDest ex:LAX ;
+    ex:hasAirportOrigin ex:EWR ;
+    ex:tailnum "N33289" .
+
+ex:UA-1668 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 2565 ;
+    ex:hasAirline <http://example.com/flights-ontology/United_Air_Lines_Inc.> ;
+    ex:hasAirportDest ex:SFO ;
+    ex:hasAirportOrigin ex:EWR ;
+    ex:tailnum "N24224" .
+
+ex:UA-1696 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 719 ;
+    ex:hasAirline <http://example.com/flights-ontology/United_Air_Lines_Inc.> ;
+    ex:hasAirportDest ex:ORD ;
+    ex:hasAirportOrigin ex:EWR ;
+    ex:tailnum "N39463" .
+
+ex:UA-1701 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 1065 ;
+    ex:hasAirline <http://example.com/flights-ontology/United_Air_Lines_Inc.> ;
+    ex:hasAirportDest ex:FLL ;
+    ex:hasAirportOrigin ex:EWR ;
+    ex:tailnum "N75435" .
+
+ex:UA-1714 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 1416 ;
+    ex:hasAirline <http://example.com/flights-ontology/United_Air_Lines_Inc.> ;
+    ex:hasAirportDest ex:IAH ;
+    ex:hasAirportOrigin ex:LGA ;
+    ex:tailnum "N24211" .
+
+ex:UA-194 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 2475 ;
+    ex:hasAirline <http://example.com/flights-ontology/United_Air_Lines_Inc.> ;
+    ex:hasAirportDest ex:LAX ;
+    ex:hasAirportOrigin ex:JFK ;
+    ex:tailnum "N29129" .
+
+ex:UA-303 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 2586 ;
+    ex:hasAirline <http://example.com/flights-ontology/United_Air_Lines_Inc.> ;
+    ex:hasAirportDest ex:SFO ;
+    ex:hasAirportOrigin ex:JFK ;
+    ex:tailnum "N532UA" .
+
+ex:UA-473 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 1416 ;
+    ex:hasAirline <http://example.com/flights-ontology/United_Air_Lines_Inc.> ;
+    ex:hasAirportDest ex:IAH ;
+    ex:hasAirportOrigin ex:LGA ;
+    ex:tailnum "N488UA" .
+
+ex:UA-477 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 1620 ;
+    ex:hasAirline <http://example.com/flights-ontology/United_Air_Lines_Inc.> ;
+    ex:hasAirportDest ex:DEN ;
+    ex:hasAirportOrigin ex:LGA ;
+    ex:tailnum "N511UA" .
+
+ex:UA-496 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 1416 ;
+    ex:hasAirline <http://example.com/flights-ontology/United_Air_Lines_Inc.> ;
+    ex:hasAirportDest ex:IAH ;
+    ex:hasAirportOrigin ex:LGA ;
+    ex:tailnum "N459UA" .
+
+ex:UA-544 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 719 ;
+    ex:hasAirline <http://example.com/flights-ontology/United_Air_Lines_Inc.> ;
+    ex:hasAirportDest ex:ORD ;
+    ex:hasAirportOrigin ex:EWR ;
+    ex:tailnum "N841UA" .
+
+ex:UA-556 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 1023 ;
+    ex:hasAirline <http://example.com/flights-ontology/United_Air_Lines_Inc.> ;
+    ex:hasAirportDest ex:PBI ;
+    ex:hasAirportOrigin ex:EWR ;
+    ex:tailnum "N497UA" .
+
+ex:UA-883 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 1620 ;
+    ex:hasAirline <http://example.com/flights-ontology/United_Air_Lines_Inc.> ;
+    ex:hasAirportDest ex:DEN ;
+    ex:hasAirportOrigin ex:LGA ;
+    ex:tailnum "N569UA" .
+
+ex:UA-960 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 1068 ;
+    ex:hasAirline <http://example.com/flights-ontology/United_Air_Lines_Inc.> ;
+    ex:hasAirportDest ex:RSW ;
+    ex:hasAirportOrigin ex:EWR ;
+    ex:tailnum "N838UA" .
+
+ex:UA-962 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 1023 ;
+    ex:hasAirline <http://example.com/flights-ontology/United_Air_Lines_Inc.> ;
+    ex:hasAirportDest ex:PBI ;
+    ex:hasAirportOrigin ex:EWR ;
+    ex:tailnum "N514UA" .
+
+ex:US-1019 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 529 ;
+    ex:hasAirline <http://example.com/flights-ontology/US_Airways_Inc.> ;
+    ex:hasAirportDest ex:CLT ;
+    ex:hasAirportOrigin ex:EWR ;
+    ex:tailnum "N426US" .
+
+ex:US-245 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 2133 ;
+    ex:hasAirline <http://example.com/flights-ontology/US_Airways_Inc.> ;
+    ex:hasAirportDest ex:PHX ;
+    ex:hasAirportOrigin ex:EWR ;
+    ex:tailnum "N807AW" .
+
+ex:US-27 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 2153 ;
+    ex:hasAirline <http://example.com/flights-ontology/US_Airways_Inc.> ;
+    ex:hasAirportDest ex:PHX ;
+    ex:hasAirportOrigin ex:JFK ;
+    ex:tailnum "N535UW" .
+
+ex:US-926 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 529 ;
+    ex:hasAirline <http://example.com/flights-ontology/US_Airways_Inc.> ;
+    ex:hasAirportDest ex:CLT ;
+    ex:hasAirportOrigin ex:EWR ;
+    ex:tailnum "N178US" .
+
+ex:VX-11 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 2586 ;
+    ex:hasAirline ex:Virgin_America ;
+    ex:hasAirportDest ex:SFO ;
+    ex:hasAirportOrigin ex:JFK ;
+    ex:tailnum "N635VA" .
+
+ex:VX-399 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 2475 ;
+    ex:hasAirline ex:Virgin_America ;
+    ex:hasAirportDest ex:LAX ;
+    ex:hasAirportOrigin ex:JFK ;
+    ex:tailnum "N627VA" .
+
+ex:WN-4646 a ex:Flightnum ;
+    ex:Year "2013"^^xsd:Year ;
+    ex:distance 185 ;
+    ex:hasAirline <http://example.com/flights-ontology/Southwest_Airlines_Co.> ;
+    ex:hasAirportDest ex:BWI ;
+    ex:hasAirportOrigin ex:LGA ;
+    ex:tailnum "N273WN" .
+
+ex:AirTran_Airways_Corporation a ex:Airline ;
+    rdfs:label "AirTran Airways Corporation" .
+
+<http://example.com/flights-ontology/Alaska_Airlines_Inc.> a ex:Airline ;
+    rdfs:label "Alaska Airlines Inc." .
+
+ex:BQN a ex:AirportDest .
+
+ex:BUF a ex:AirportDest .
+
+ex:BWI a ex:AirportDest .
+
+ex:MKE a ex:AirportDest .
+
+ex:MSY a ex:AirportDest .
+
+ex:ROC a ex:AirportDest .
+
+ex:SLC a ex:AirportDest .
+
+ex:SNA a ex:AirportDest .
+
+ex:SRQ a ex:AirportDest .
+
+ex:SYR a ex:AirportDest .
+
+<http://example.com/flights-ontology/Southwest_Airlines_Co.> a ex:Airline ;
+    rdfs:label "Southwest Airlines Co." .
+
+ex:XNA a ex:AirportDest .
+
+ex:BOS a ex:AirportDest .
+
+ex:CLT a ex:AirportDest .
+
+ex:DTW a ex:AirportDest .
+
+ex:IAD a ex:AirportDest .
+
+ex:LAS a ex:AirportDest .
+
+ex:PHX a ex:AirportDest .
+
+ex:SEA a ex:AirportDest .
+
+ex:Virgin_America a ex:Airline ;
+    rdfs:label "Virgin America" .
+
+ex:DEN a ex:AirportDest .
+
+<http://example.com/flights-ontology/ExpressJet_Airlines_Inc.> a ex:Airline ;
+    rdfs:label "ExpressJet Airlines Inc." .
+
+ex:MSP a ex:AirportDest .
+
+ex:RSW a ex:AirportDest .
+
+ex:TPA a ex:AirportDest .
+
+ex:DFW a ex:AirportDest .
+
+ex:SJU a ex:AirportDest .
+
+<http://example.com/flights-ontology/US_Airways_Inc.> a ex:Airline ;
+    rdfs:label "US Airways Inc." .
+
+ex:ATL a ex:AirportDest .
+
+ex:IAH a ex:AirportDest .
+
+ex:LAX a ex:AirportDest .
+
+ex:PBI a ex:AirportDest .
+
+ex:Envoy_Air a ex:Airline ;
+    rdfs:label "Envoy Air" .
+
+ex:FLL a ex:AirportDest .
+
+ex:MCO a ex:AirportDest .
+
+ex:MIA a ex:AirportDest .
+
+ex:SFO a ex:AirportDest .
+
+ex:ORD a ex:AirportDest .
+
+<http://example.com/flights-ontology/Delta_Air_Lines_Inc.> a ex:Airline ;
+    rdfs:label "Delta Air Lines Inc." .
+
+<http://example.com/flights-ontology/American_Airlines_Inc.> a ex:Airline ;
+    rdfs:label "American Airlines Inc." .
+
+ex:JetBlue_Airways a ex:Airline ;
+    rdfs:label "JetBlue Airways" .
+
+<http://example.com/flights-ontology/United_Air_Lines_Inc.> a ex:Airline ;
+    rdfs:label "United Air Lines Inc." .
+
+ex:EWR a ex:AirportOrigin .
+
+ex:JFK a ex:AirportOrigin .
+
+ex:LGA a ex:AirportOrigin .
+
